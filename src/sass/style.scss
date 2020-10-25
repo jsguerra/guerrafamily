@@ -40,9 +40,11 @@ sass/
 */
 @import 'vendors/bootstrap-reboot';
 
-$grey: #f9f9f9;
+@import 'abstracts/variables.scss';
 
-body {
-  background-color: $grey;
-  color: #242424;
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+h1,
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
 }
