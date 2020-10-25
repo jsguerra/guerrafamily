@@ -45,7 +45,7 @@ const styles = (cb) => {
         ]
       ))
     .pipe(sourcemaps.write())
-    .pipe(dest(app))
+    .pipe(dest(app + '/css/'))
     .pipe(browserSync.stream())
 
   cb();
