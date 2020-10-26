@@ -42,9 +42,10 @@ sass/
 
 @import 'abstracts/variables.scss';
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import 'base/typography';
 
-h1,
-h2 {
-  font-family: 'Nunito Sans', sans-serif;
-}
+@import
+  'layout/grid',
+  'layout/header',
+  'layout/navigation',
+  'layout/footer';
