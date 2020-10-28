@@ -1,3 +1,15 @@
 .site-header {
-  background-color: $m5;
+  padding: 60px 10% 30px;
+  position: relative;
+  text-align: center;
+  
+  &::before {
+    content: '';
+    background-color: $m3;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 }
