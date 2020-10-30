@@ -1,0 +1,7 @@
+.site-nav {
+  
+  ul {
+    @include list-reset;
+    display: flex;
+  }
+}
